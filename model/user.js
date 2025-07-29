@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-import isEmail from "validator/lib/isEmail";
+import isEmail from "validator/lib/isEmail.js";
 
 
 // You can change your user schema as you needed 👍

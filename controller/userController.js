@@ -1,7 +1,6 @@
-import User from '../model/user.js'
-import jwt from 'jsonwebtoken'
+import {User} from '../model/user.js'
 import bcrypt from 'bcryptjs';
-import { generateToken } from "../utils/jwt";
+import { generateToken } from "../utils/jwt.js";
 
 
 function check(str){
@@ -26,7 +25,7 @@ const register = async (req,res)=>{
            return res.status(401).json({message:`Your email is already exist : ${email}`, now: "please try login" })
         }
         //encypt the password
-        encPass = await bcrypt.hash(password,10);
+       const encPass = await bcrypt.hash(password,10);
         // Create new User and save in DB
         const newUser = new User({name,email,password:encPass})
         await newUser.save()
@@ -57,7 +56,7 @@ const login = async (req,res)=>{
         if(!isUserExist){
             return res.status(400).json({message:"User is not registred.",now:"try to signup"}) //if user not Found
         }
-        isPassSame = await bcrypt.compare(password,isUserExist.password) //compare password
+        const isPassSame = await bcrypt.compare(password,isUserExist.password) //compare password
         if(!isPassSame){
             return res.status(400).json({message:"Password is Incorrect",now:"try to forget password."}) //if password not match
         }

@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const DatabaseName = "User"
+const DatabaseName = "Auth"
 
 const connectDb = async ()=>{
     try{    
