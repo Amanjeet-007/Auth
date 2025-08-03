@@ -5,8 +5,8 @@ This Project is created for making authentication implimentation easy to integra
 ## Setup Method
 ### just go on your project repo and in terminal 
 > git clone https://github.com/Amanjeet-007/Auth
-
-
+### How you can connect this to frontend ? 
+I will provide the simple way to add it in your project soon 😊 if you want ?
 
 ## Creation of the project 
 > Express, mongoose, cors, jsonwebtoken, bcryptjs, dotnet  
