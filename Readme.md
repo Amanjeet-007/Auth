@@ -3,7 +3,10 @@
 
 This Project is created for making authentication implimentation easy to integrate into a MERN project or Express Node backend project with mongoDB Databse.
 ## Setup Method
-> it will avilable soon as the project will complete
+### just go on your project repo and in terminal 
+> git clone https://github.com/Amanjeet-007/Auth
+
+
 
 ## Creation of the project 
 > Express, mongoose, cors, jsonwebtoken, bcryptjs, dotnet  
