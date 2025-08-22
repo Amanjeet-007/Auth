@@ -30,11 +30,11 @@ I will provide the simple way to add it in your project soon 😊 if you want ?
 * .env = you have to set .env and set three thing  
       1. json secret key  
       2. DB url  
-      3. PORT  
+      3. PORT
+## create your variable with the following name (_same as it) _> else you will get error 
 for example     
-
 >PORT=3000 (for local use)  
-DB_URL='example.link'  
+MONGODB_KEY='example.link'  
 JSON_SECRET_KEY='asdfsaf'
 
 
