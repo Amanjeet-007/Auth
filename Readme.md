@@ -31,11 +31,12 @@ I will provide the simple way to add it in your project soon 😊 if you want ?
       1. json secret key  
       2. DB url  
       3. PORT
+  
 ## create your variable with the following name (_same as it) _> else you will get error 
 for example     
 >PORT=3000 (for local use)  
 MONGODB_KEY='example.link'  
 JSON_SECRET_KEY='asdfsaf'
 
-
+> Ask me if anything you want about the project
 
